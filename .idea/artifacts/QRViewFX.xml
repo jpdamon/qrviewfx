@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" build-on-make="true" name="QRViewFX">
+    <output-path>$PROJECT_DIR$/out/artifacts/QRViewFX</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="com.jeffdamon.qrviewfx.ui.Main" />
+        <option name="description" value="" />
+        <option name="height" value="600" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="all" />
+        <option name="title" value="QRViewFX" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="JavaFXApp.jar">
+        <element id="module-output" name="qrviewfx" />
+      </element>
+      <element id="library" level="project" name="com.google.zxing:javase:3.3.0" />
+    </root>
+  </artifact>
+</component>
